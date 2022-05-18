@@ -1,0 +1,34 @@
+.App {
+  font-family: 'Helvetica';
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+.heroLeft {
+  width: 50%;
+}
+h1 {
+  font-size: 69px;
+}
+h2 {
+  font-size: 36px;
+  color: #929496;
+  font-weight: 300;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+}
+.imagehero {
+  width: 650px;
+  height :812px;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
